@@ -1,0 +1,32 @@
+name: Add Comment to Files
+
+on: [push]
+
+jobs:
+  add_comment:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Run script to add comment
+      run: |
+        python utils/addCopyright.py
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Commit and push changes
+      run: |
+        git add .
+        git commit -m ":construction_worker: Add copyright to files" || echo "No changes to commit"
+        git pull --rebase
+        git push origin main
