@@ -8,7 +8,6 @@ comments = {
     '.py': "# {}".format(copyright_comment),
     '.cpp': "// {}".format(copyright_comment),
     '.h': "// {}".format(copyright_comment),
-    '.ts': "// {}".format(copyright_comment),
 }
 
 extensions = tuple(comments.keys())
@@ -28,11 +27,10 @@ def add_comment_to_file(file_path, comment):
     with open(file_path, 'r+') as file:
         content = file.read()
         # Remove old comment if present
-        content = re.sub(r'(\n\n{}|\n\n{}|\n\n{}|\n\n{})'.format(
+        content = re.sub(r'(\n\n{}|\n\n{}|\n\n{})'.format(
             comments['.py'],
             comments['.cpp'],
             comments['.h'],
-            comments['.ts'],
         ), '', content)
 
         # Remove trailing empty lines
