@@ -172,3 +172,4 @@ void qfi_VSI::updateView()
 
     _scene->update();
 }
+// Développé avec ❤️ par : www.noasecond.com

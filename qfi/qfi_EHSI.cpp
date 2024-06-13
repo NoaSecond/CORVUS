@@ -474,3 +474,4 @@ void qfi_EHSI::updateView()
 
     centerOn( width() / 2.0 , height() / 2.0 );
 }
+// Développé avec ❤️ par : www.noasecond.com

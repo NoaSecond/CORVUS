@@ -220,3 +220,4 @@ void qfi_TC::updateView()
 
     _scene->update();
 }
+// Développé avec ❤️ par : www.noasecond.com

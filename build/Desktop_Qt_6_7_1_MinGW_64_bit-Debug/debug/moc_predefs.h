@@ -438,3 +438,4 @@
 #define __ATOMIC_ACQ_REL 4
 #define __ATOMIC_RELEASE 3
 #define __declspec(x) __attribute__((x))
+// Développé avec ❤️ par : www.noasecond.com

@@ -68,3 +68,4 @@ void qfi_Fonts::init()
     _medium.setWeight( QFont::Bold );
 #   endif
 }
+// Développé avec ❤️ par : www.noasecond.com

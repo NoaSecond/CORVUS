@@ -2178,3 +2178,4 @@ void qfi_EADI::VSI::updateVSI()
                               _scaleY * arrowDeltaY );
     }
 }
+// Développé avec ❤️ par : www.noasecond.com

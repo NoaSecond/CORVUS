@@ -221,3 +221,4 @@ void qfi_ALT::updateView()
 
     _scene->update();
 }
+// Développé avec ❤️ par : www.noasecond.com

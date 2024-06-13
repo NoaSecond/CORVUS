@@ -21,3 +21,4 @@ private:
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H
+// Développé avec ❤️ par : www.noasecond.com

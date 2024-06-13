@@ -160,3 +160,4 @@ void qfi_HI::updateView()
 
     _scene->update();
 }
+// Développé avec ❤️ par : www.noasecond.com
