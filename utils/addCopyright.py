@@ -29,12 +29,10 @@ def add_comment_to_file(file_path, comment):
         content = file.read()
         # Remove old comment if present
         content = re.sub(r'(\n\n{}|\n\n{}|\n\n{}|\n\n{}|\n\n{})'.format(
-            comments['.js'],
-            comments['.html'],
-            comments['.yml'],
-            comments['.css'],
-            comments['.sql'],
-            comments['.bat'],
+            comments['.py'],
+            comments['.cpp'],
+            comments['.h'],
+            comments['.ts'],
         ), '', content)
 
         # Remove trailing empty lines
