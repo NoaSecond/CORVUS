@@ -1,6 +1,4 @@
-# This file is used to ignore files which are generated
-# ----------------------------------------------------------------------------
-
+# Qt
 *~
 *.autosave
 *.a
@@ -35,17 +33,17 @@ Thumbs.db
 /.qmake.cache
 /.qmake.stash
 
-# qtcreator generated files
+# QtCreator
 *.pro.user*
 CMakeLists.txt.user*
 
-# xemacs temporary files
+# xemacs
 *.flc
 
-# Vim temporary files
+# Vim
 .*.swp
 
-# Visual Studio generated files
+# Visual Studio
 *.ib_pdb_index
 *.idb
 *.ilk
@@ -60,7 +58,10 @@ CMakeLists.txt.user*
 *.vcxproj
 *vcxproj.*
 
-# MinGW generated files
+# VSCode
+.vscode/
+
+# MinGW
 *.Debug
 *.Release
 
@@ -68,7 +69,5 @@ CMakeLists.txt.user*
 *.pyc
 
 # Binaries
-# --------
 *.dll
 *.exe
-
