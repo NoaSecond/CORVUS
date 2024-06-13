@@ -28,7 +28,7 @@ def add_comment_to_file(file_path, comment):
     with open(file_path, 'r+') as file:
         content = file.read()
         # Remove old comment if present
-        content = re.sub(r'(\n\n{}|\n\n{}|\n\n{}|\n\n{}|\n\n{})'.format(
+        content = re.sub(r'(\n\n{}|\n\n{}|\n\n{}|\n\n{})'.format(
             comments['.py'],
             comments['.cpp'],
             comments['.h'],
