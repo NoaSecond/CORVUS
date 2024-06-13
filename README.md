@@ -8,6 +8,8 @@ Uses [AutoCopyright](https://github.com/YoruKiwi/AutoCopyright)
 
 Uses [QFlightinstruments](https://github.com/marek-cel/QFlightinstruments)
 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/CORVUS/addCopyright.yml?label=CI-AutoCopyright)
+
 ## Contributing
 
 If you would like to contribute to this project, please follow these guidelines:
