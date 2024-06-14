@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    vkbgladiatornxt.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    vkbgladiatornxt.h
 
 FORMS += \
     mainwindow.ui
