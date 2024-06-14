@@ -8,3 +8,4 @@ public:
 };
 
 #endif // VKBGLADIATORNXT_H
+// Développé avec ❤️ par : www.noasecond.com
