@@ -9,6 +9,7 @@ Uses [AutoCopyright](https://github.com/YoruKiwi/AutoCopyright)
 Uses [QFlightinstruments](https://github.com/marek-cel/QFlightinstruments)
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/CORVUS/addCopyright.yml?label=CI-AutoCopyright)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/YoruKiwi/CORVUS/codeql.yml?label=CI-CodeQL)
 
 ## Contributing
 
